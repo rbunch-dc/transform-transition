@@ -5,3 +5,53 @@
 	border: 1px #bababa solid;
 	padding: 10px;
 }
+
+.transform-box{
+	font-size: 12px;
+	position: relative;
+	width: 60px;
+	height: 60px;
+	background-color: #ddd;
+	margin: 10px;
+	border: 1px #f00 solid;	
+}
+
+#ease{
+	transition: all 4s ease-in;
+}
+
+#ease-out{
+	transition: all 4s ease-out;
+}
+
+#ease-in-out{
+	transition: all 4s ease-in-out;
+}
+
+#linear{
+	transition: all 4s linear;	
+}
+
+#custom{
+	transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+}
+
+#awesome{
+	transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+}
+
+#timing:hover .transform-box{
+	transform: rotate(360deg);
+	margin-left: 420px;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
