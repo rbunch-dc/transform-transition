@@ -4,11 +4,11 @@ body{
 	text-align: center;
 }
 
-#ticket{
-	width: 225px;
-	padding-top: 75px;
-}
 
-.right, .left{
-	background-image: url('ticket.png');
+@media
+img{
+	/* transform: translate(200px); */
+	transform: skewY(50deg);
+	/* transform: scale(10, 1) ; */
+	box-shadow: ;
 }
